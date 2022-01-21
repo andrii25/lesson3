@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #header {
+            display: flex;
+            height: 200px;
+            width: 800px;
+            background: #e7f7b2;
+            box-sizing: border-box;
+            border:1px solid black;
+
+
+        }
+        #menu {
+            display: flex;
+            height: 400px;
+            width: 200px;
+            background: #ffb9ff;
+            box-sizing: border-box;
+            border:1px solid black;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+        .box {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+
+
+        }
+        .post {
+            height: 195px;
+            width: 590px;
+            background: #182492;
+            margin-top: 10px ;
+            box-sizing: border-box;
+            border:1px solid black;
+        }
+        .bot {
+            display: flex;
+            flex-direction: column;
+
+        }
+        .boss {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        #footer {
+            display: flex;
+            height: 200px;
+            width: 800px;
+            background: #ffffcb;
+            box-sizing: border-box;
+            border:1px solid black;
+            margin-top: 10px;
+        }
+    </style>
+
+</head>
+<body>
+<div class="boss">
+    <div id="header"></div>
+    <div class="box">
+        <div id="menu"></div>
+        <div class="bot">
+        <div class="post"></div>
+        <div class="post"></div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</div>
+</body>
+</html>
